@@ -159,6 +159,59 @@ const sidebarGroupItems = [
     ],
   },
   {
+    title: "ERP",
+    items: [
+      {
+        title: "ERP Overview",
+        url: "/dashboard/erp",
+        icon: BarChart2Icon,
+        permission: "dashboard.view",
+      },
+      {
+        title: "Sales",
+        url: "/dashboard/sales",
+        icon: ShoppingCart,
+        permission: "orders.view",
+      },
+      {
+        title: "Purchases",
+        url: "/dashboard/purchases",
+        icon: ShoppingBag,
+        permission: "purchases.view",
+      },
+      {
+        title: "Accounting",
+        url: "/dashboard/accounting",
+        icon: Coins,
+        permission: "expenses.view",
+      },
+      {
+        title: "HR",
+        url: "/dashboard/hr",
+        icon: Users,
+        permission: "users.view",
+      },
+      {
+        title: "Payroll",
+        url: "/dashboard/payroll",
+        icon: Banknote,
+        permission: "users.view",
+      },
+      {
+        title: "Warehouse",
+        url: "/dashboard/warehouse",
+        icon: Warehouse,
+        permission: "inventory.view",
+      },
+      {
+        title: "CRM",
+        url: "/dashboard/crm",
+        icon: Users,
+        permission: "orders.view",
+      },
+    ],
+  },
+  {
     title: "Payments",
     items: [
       {
